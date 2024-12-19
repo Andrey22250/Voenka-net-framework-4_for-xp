@@ -58,9 +58,10 @@ namespace voenka
             // pictureBox
             // 
             this.pictureBox.Image = global::Мастерская_тестирование.Properties.Resources.Фото_салона_сбоку;
-            this.pictureBox.Location = new System.Drawing.Point(10, 8);
+            this.pictureBox.Location = new System.Drawing.Point(15, 12);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(657, 652);
+            this.pictureBox.Size = new System.Drawing.Size(986, 1003);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox.TabIndex = 0;
             this.pictureBox.TabStop = false;
@@ -68,9 +69,10 @@ namespace voenka
             // lblStepName
             // 
             this.lblStepName.Font = new System.Drawing.Font("Segoe UI", 18F);
-            this.lblStepName.Location = new System.Drawing.Point(763, 13);
+            this.lblStepName.Location = new System.Drawing.Point(1144, 20);
+            this.lblStepName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStepName.Name = "lblStepName";
-            this.lblStepName.Size = new System.Drawing.Size(488, 71);
+            this.lblStepName.Size = new System.Drawing.Size(732, 109);
             this.lblStepName.TabIndex = 1;
             this.lblStepName.Text = "Текст текущего шага";
             // 
@@ -78,9 +80,11 @@ namespace voenka
             // 
             this.groupBoxOptions.Controls.Add(this.panel1);
             this.groupBoxOptions.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.groupBoxOptions.Location = new System.Drawing.Point(763, 451);
+            this.groupBoxOptions.Location = new System.Drawing.Point(1144, 694);
+            this.groupBoxOptions.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBoxOptions.Name = "groupBoxOptions";
-            this.groupBoxOptions.Size = new System.Drawing.Size(488, 160);
+            this.groupBoxOptions.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBoxOptions.Size = new System.Drawing.Size(732, 246);
             this.groupBoxOptions.TabIndex = 2;
             this.groupBoxOptions.TabStop = false;
             this.groupBoxOptions.Text = "Варианты ответа:";
@@ -91,17 +95,19 @@ namespace voenka
             this.panel1.Controls.Add(this.radioButton3);
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Controls.Add(this.radioButton2);
-            this.panel1.Location = new System.Drawing.Point(5, 38);
+            this.panel1.Location = new System.Drawing.Point(8, 58);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(476, 123);
+            this.panel1.Size = new System.Drawing.Size(714, 189);
             this.panel1.TabIndex = 0;
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(3, 63);
+            this.radioButton3.Location = new System.Drawing.Point(4, 97);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(150, 29);
+            this.radioButton3.Size = new System.Drawing.Size(222, 42);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
             this.radioButton3.Tag = "2";
@@ -112,9 +118,10 @@ namespace voenka
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(3, 4);
+            this.radioButton1.Location = new System.Drawing.Point(4, 6);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(150, 29);
+            this.radioButton1.Size = new System.Drawing.Size(222, 42);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Tag = "0";
@@ -125,9 +132,10 @@ namespace voenka
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(3, 33);
+            this.radioButton2.Location = new System.Drawing.Point(4, 51);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(150, 29);
+            this.radioButton2.Size = new System.Drawing.Size(222, 42);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
             this.radioButton2.Tag = "1";
@@ -138,9 +146,10 @@ namespace voenka
             // buttonFinish
             // 
             this.buttonFinish.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.buttonFinish.Location = new System.Drawing.Point(763, 617);
+            this.buttonFinish.Location = new System.Drawing.Point(1144, 949);
+            this.buttonFinish.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonFinish.Name = "buttonFinish";
-            this.buttonFinish.Size = new System.Drawing.Size(167, 50);
+            this.buttonFinish.Size = new System.Drawing.Size(250, 77);
             this.buttonFinish.TabIndex = 3;
             this.buttonFinish.Text = "Завершить тест";
             this.buttonFinish.UseVisualStyleBackColor = true;
@@ -149,9 +158,10 @@ namespace voenka
             // buttonAccept
             // 
             this.buttonAccept.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.buttonAccept.Location = new System.Drawing.Point(1085, 619);
+            this.buttonAccept.Location = new System.Drawing.Point(1628, 952);
+            this.buttonAccept.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAccept.Name = "buttonAccept";
-            this.buttonAccept.Size = new System.Drawing.Size(167, 50);
+            this.buttonAccept.Size = new System.Drawing.Size(250, 77);
             this.buttonAccept.TabIndex = 4;
             this.buttonAccept.Text = "Подтвердить ответ";
             this.buttonAccept.UseVisualStyleBackColor = true;
@@ -160,9 +170,10 @@ namespace voenka
             // lblQuestion
             // 
             this.lblQuestion.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.lblQuestion.Location = new System.Drawing.Point(763, 84);
+            this.lblQuestion.Location = new System.Drawing.Point(1144, 129);
+            this.lblQuestion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(488, 166);
+            this.lblQuestion.Size = new System.Drawing.Size(732, 255);
             this.lblQuestion.TabIndex = 5;
             this.lblQuestion.Text = "Текст вопроса для текущего шага";
             // 
@@ -170,9 +181,11 @@ namespace voenka
             // 
             this.groupBoxDescription.Controls.Add(this.panelDescription);
             this.groupBoxDescription.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.groupBoxDescription.Location = new System.Drawing.Point(764, 451);
+            this.groupBoxDescription.Location = new System.Drawing.Point(1146, 694);
+            this.groupBoxDescription.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBoxDescription.Name = "groupBoxDescription";
-            this.groupBoxDescription.Size = new System.Drawing.Size(488, 160);
+            this.groupBoxDescription.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBoxDescription.Size = new System.Drawing.Size(732, 246);
             this.groupBoxDescription.TabIndex = 6;
             this.groupBoxDescription.TabStop = false;
             this.groupBoxDescription.Text = "Ответ";
@@ -183,18 +196,20 @@ namespace voenka
             this.panelDescription.AutoScroll = true;
             this.panelDescription.Controls.Add(this.lblDescription);
             this.panelDescription.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.panelDescription.Location = new System.Drawing.Point(6, 31);
+            this.panelDescription.Location = new System.Drawing.Point(9, 48);
+            this.panelDescription.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelDescription.Name = "panelDescription";
-            this.panelDescription.Size = new System.Drawing.Size(465, 119);
+            this.panelDescription.Size = new System.Drawing.Size(698, 183);
             this.panelDescription.TabIndex = 0;
             // 
             // lblDescription
             // 
             this.lblDescription.AutoSize = true;
-            this.lblDescription.Location = new System.Drawing.Point(3, 0);
-            this.lblDescription.MaximumSize = new System.Drawing.Size(445, 0);
+            this.lblDescription.Location = new System.Drawing.Point(4, 0);
+            this.lblDescription.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDescription.MaximumSize = new System.Drawing.Size(668, 0);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(63, 25);
+            this.lblDescription.Size = new System.Drawing.Size(91, 38);
             this.lblDescription.TabIndex = 0;
             this.lblDescription.Text = "label1";
             // 
@@ -202,9 +217,10 @@ namespace voenka
             // 
             this.lblYourAnswerHeader.AutoSize = true;
             this.lblYourAnswerHeader.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblYourAnswerHeader.Location = new System.Drawing.Point(1008, 630);
+            this.lblYourAnswerHeader.Location = new System.Drawing.Point(1512, 969);
+            this.lblYourAnswerHeader.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblYourAnswerHeader.Name = "lblYourAnswerHeader";
-            this.lblYourAnswerHeader.Size = new System.Drawing.Size(66, 15);
+            this.lblYourAnswerHeader.Size = new System.Drawing.Size(98, 25);
             this.lblYourAnswerHeader.TabIndex = 7;
             this.lblYourAnswerHeader.Text = "Ваш ответ:";
             this.lblYourAnswerHeader.Visible = false;
@@ -212,10 +228,11 @@ namespace voenka
             // lblYourAnswerRight
             // 
             this.lblYourAnswerRight.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblYourAnswerRight.Location = new System.Drawing.Point(980, 645);
+            this.lblYourAnswerRight.Location = new System.Drawing.Point(1470, 992);
+            this.lblYourAnswerRight.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblYourAnswerRight.Name = "lblYourAnswerRight";
             this.lblYourAnswerRight.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblYourAnswerRight.Size = new System.Drawing.Size(94, 15);
+            this.lblYourAnswerRight.Size = new System.Drawing.Size(141, 23);
             this.lblYourAnswerRight.TabIndex = 8;
             this.lblYourAnswerRight.Text = "правильный?";
             this.lblYourAnswerRight.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -225,10 +242,10 @@ namespace voenka
             // 
             this.lblCounter.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblCounter.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblCounter.Location = new System.Drawing.Point(943, 639);
+            this.lblCounter.Location = new System.Drawing.Point(1412, 983);
             this.lblCounter.Margin = new System.Windows.Forms.Padding(0);
             this.lblCounter.Name = "lblCounter";
-            this.lblCounter.Size = new System.Drawing.Size(19, 15);
+            this.lblCounter.Size = new System.Drawing.Size(32, 23);
             this.lblCounter.TabIndex = 9;
             this.lblCounter.Text = "10";
             this.lblCounter.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -239,19 +256,19 @@ namespace voenka
             this.label2.BackColor = System.Drawing.SystemColors.Control;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(958, 639);
+            this.label2.Location = new System.Drawing.Point(1437, 983);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(24, 15);
+            this.label2.Size = new System.Drawing.Size(39, 25);
             this.label2.TabIndex = 10;
             this.label2.Text = "/17";
             // 
             // PracticeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1896, 1048);
             this.Controls.Add(this.groupBoxDescription);
             this.Controls.Add(this.groupBoxOptions);
             this.Controls.Add(this.lblCounter);
@@ -263,6 +280,7 @@ namespace voenka
             this.Controls.Add(this.buttonAccept);
             this.Controls.Add(this.lblStepName);
             this.Controls.Add(this.pictureBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PracticeForm";
